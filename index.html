@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To-Do-List</title>
+</head>
+
+<body>
+    <section>
+        <!-- Форма для додавання нового завдання -->
+        <div id="form-task">
+            <input type="text" id="form-input" placeholder="Введіть завдання...">
+            <button id="form-btn">Додати</button>
+        </div>
+
+        <!-- Контейнер для фільтрів (усі, виконані, невиконані) -->
+        <div class="btn-container">
+            <button id="all-tasks-btn">Усі</button>
+            <button id="completed-tasks-btn">Виконані</button>
+            <button id="incomplete-tasks-btn">Невиконані</button>
+        </div>
+
+        <div class="table-container" id="incomplete-task-container">
+            <h2>Невиконані завдання</h2>
+        </div>
+
+        <!-- Виконані завдання -->
+        <div class="table-container" id="completed-task-container">
+            <h2>Виконані завдання</h2>
+        </div>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
